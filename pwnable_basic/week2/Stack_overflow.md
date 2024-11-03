@@ -1,4 +1,5 @@
 # Calling Convention
+
 함수 호출 규약은 함수의 호출 및 반환에 대한 약속.
 한 함수에서 다른 함수를 호출하면 프로그램의 실행 흐름은 다른 함수로 이동하고, 호출한 함수가 반환하면 원래의 실행 흐름으로 돌아온다.
 
@@ -13,6 +14,7 @@
 
 
 ## 함수 호출 규약의 종류
+
 함수 호출 규약을 결정하는 외부 요소는
 - CPU
 - 컴파일러의 종류
@@ -30,8 +32,10 @@ x86-64
 - System V AMD64 ABI calling Convention(SYSV)
 - MS ABI의 Calling Convention
 
-# x86-64 호출 규약:SYSV
+---
 
-## SYSV
+## x86-64 호출 규약:SYSV
+
+### SYSV
 SYSV ABI는 ELF 포맷, 링킹 방법, 함수 호출 규약 등의 내용을 담고 있다.
 
